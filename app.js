@@ -313,6 +313,20 @@ class NCBBQMap {
                 "photos": [],
                 "hours": ""
             }
+            {
+                "id": 20,
+                "name": "Red Bridges BBQ Lodge",
+                "city": "Shelby",
+                "address": "2000 E Dixon Blvd, Shelby, NC 28150",
+                "lat": 35.2657,
+                "lng": -81.4808,
+                "phone": "",
+                "style": "Piedmont",
+                "status": "open",
+                "description": "",
+                "photos": [],
+                "hours": ""
+            }
         ];
 
     }
