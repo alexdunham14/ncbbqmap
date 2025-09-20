@@ -435,7 +435,7 @@ class NCBBQMap {
     addMarkersToMap() {
         // Create marker cluster group with custom options
         this.markerClusterGroup = L.markerClusterGroup({
-            maxClusterRadius: 60, // Distance in pixels to cluster markers
+            maxClusterRadius: 30, // Distance in pixels to cluster markers
             iconCreateFunction: (cluster) => this.createClusterIcon(cluster),
             spiderfyOnMaxZoom: true,
             showCoverageOnHover: false,
