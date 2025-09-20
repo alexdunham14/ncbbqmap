@@ -559,9 +559,16 @@ body {
     font-size: 20px;
 }
 
-/* Ensure map is touch-friendly with two-finger scrolling */
+/* Ensure map requires two-finger interaction on mobile */
 .leaflet-container {
-    touch-action: pan-x pan-y;
+    touch-action: none;
+}
+
+/* Allow normal touch behavior on desktop */
+@media (min-width: 769px) {
+    .leaflet-container {
+        touch-action: auto;
+    }
 }
 
 /* Custom cluster icon styling */

@@ -353,6 +353,10 @@ class NCBBQMap {
             touchCount = e.touches.length;
             if (touchCount === 2) {
                 this.map.scrollWheelZoom.enable();
+                this.map.dragging.enable();
+            } else if (touchCount === 1) {
+                this.map.scrollWheelZoom.disable();
+                this.map.dragging.disable();
             }
         });
 
@@ -360,12 +364,25 @@ class NCBBQMap {
             touchCount = e.touches.length;
             if (touchCount < 2) {
                 this.map.scrollWheelZoom.disable();
+                this.map.dragging.disable();
             }
         });
 
-        // Enable two finger scrolling on mobile devices
+        this.map.getContainer().addEventListener('touchmove', (e) => {
+            touchCount = e.touches.length;
+            if (touchCount === 2) {
+                this.map.scrollWheelZoom.enable();
+                this.map.dragging.enable();
+            } else if (touchCount === 1) {
+                this.map.scrollWheelZoom.disable();
+                this.map.dragging.disable();
+            }
+        });
+
+        // Disable single-finger interaction on mobile devices
         if (window.innerWidth <= 768) {
             this.map.scrollWheelZoom.disable();
+            this.map.dragging.disable();
         }
 
         // Handle desktop scrolling (Ctrl+scroll)
@@ -392,8 +409,15 @@ class NCBBQMap {
                 const nowDesktop = window.innerWidth > 768;
                 if (nowDesktop !== isDesktop) {
                     isDesktop = nowDesktop;
-                    // Reset scroll wheel zoom based on device type
+                    // Reset interaction based on device type
                     this.map.scrollWheelZoom.disable();
+                    if (!nowDesktop) {
+                        // If switching to mobile, disable dragging
+                        this.map.dragging.disable();
+                    } else {
+                        // If switching to desktop, enable dragging
+                        this.map.dragging.enable();
+                    }
                 }
             }, 100);
         });
@@ -623,8 +647,7 @@ class NCBBQMap {
         } else {
             gallery.innerHTML = `
                 <div class="no-photos">
-                    <p>Photos coming soon! This historic restaurant will be featured with authentic images of their traditional BBQ preparation and atmosphere.</p>
-                    <p><strong>Help us out:</strong> If you have great photos of ${restaurant.name}, we'd love to feature them!</p>
+                    <p>Photos coming as soon as we get over there again!</p>
                 </div>
             `;
         }
