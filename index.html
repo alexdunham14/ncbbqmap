@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NC BBQ Map - Traditional North Carolina Barbecue Restaurants</title>
+    <meta name="description" content="Interactive map of traditional North Carolina BBQ restaurants serving authentic Eastern and Piedmont style barbecue">
+
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+          integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+          crossorigin=""/>
+
+    <!-- Leaflet MarkerCluster CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css" />
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header Section -->
+        <header class="header">
+            <h1>What is North Carolina-style barbecue?</h1>
+            <button class="go-to-map-btn" onclick="document.getElementById('map').scrollIntoView({behavior: 'smooth', block: 'center'})">
+                Go to Map
+            </button>
+            <div class="intro">
+                <p>North Carolina-style barbecue is</p>
+                <p>Pork.</p>
+                <p>Seasoned only with salt.</p>
+                <p>Cooked over hardwood coals.</p>
+                <p>Chopped violently; never pulled.</p>
+                <p>Combined with a thin vinegar- and red pepper-based sauce before serving.</p>
+                <p>Seasoning the pork with only salt keeps the flavor consistent through every bite. Cooking the pork over coals gives it a subtle smoke flavor rather than an overpowering, pungent one. Chopping the pork is like cutting steak against the grain, making it easier to chew. Combining the chopped pork with sauce before serving makes the meat, fat, smoke, and vinegar+red pepper flavors meld together. The result is a food that is entirely different than pulled pork served with a thick sauce. Better or worse, you decide: <em>different</em> is the point. You're not going to find North Carolina-style chopped pork barbecue outside of North Carolina. Regional foods are fun!</p>
+
+                <h2>Eastern style vs. Piedmont Style</h2>
+                <p>There are two types of North Carolina bbq: you might sometimes hear the types described as "Eastern vs. Western", but that leads to some confusion--that makes some folks think that the distinction is between the chopped product I described and the pulled pork with thick sauce you might find in Tennessee and farther west. NO! All North Carolina bbq features chopped pork with a thin vinegar/red-pepper sauce: the difference between Eastern-style bbq and <em>Piedmont</em>-style bbq is</p>
+                <ul>
+                    <li>whole hog vs. whole shoulder (no boston butt)</li>
+                    <li>no ketchup vs. a little ketchup (still thin)</li>
+                </ul>
+                <p>The dividing line is Raleigh: to the east is Eastern style, to the west is Piedmont. But not all the way to the mountains.</p>
+
+                <h2>Eat this food while you still have the chance</h2>
+                <p>This site highlights North Carolina-style bbq restaurants that have been around since before bbq became a hip food, before bbq competitions, and before the internet. This matters for just one reason: the recipes for both the bbq and the sides are different than what you will find elsewhere in the country and different than what you will find at newly opened bbq restaurants in North Carolina. We must patronize these restaurants before they close--many already have in recent years! You will never be able to eat the food served at Allen & Son BBQ in Chapel Hill, or Jack Cobb & Son's BBQ in Farmville, or Richard's BBQ in Salisbury, ever again! So don't miss Grady's or Barbecue Center while they still exist.</p>
+
+                <div class="legend">
+                    <div class="legend-item">
+                        <span class="marker eastern"></span>
+                        <span>Eastern</span>
+                    </div>
+                    <div class="legend-item">
+                        <span class="marker piedmont"></span>
+                        <span>Piedmont</span>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Map Section -->
+        <section class="map-section">
+            <h2 class="map-header">Map of old-school North Carolina barbecue</h2>
+            <div class="map-container">
+                <div id="map"></div>
+                <div class="map-instructions">
+                    <p>🖱️ Hold Ctrl and scroll to zoom</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Restaurant Details Section -->
+        <section id="restaurant-details" class="restaurant-details hidden">
+            <div class="details-header">
+                <h2 id="restaurant-name"></h2>
+                <button class="close-btn" id="close-details" aria-label="Close details">&times;</button>
+            </div>
+            <div class="details-content">
+                <div class="restaurant-info">
+                    <p id="restaurant-address"></p>
+                    <p id="restaurant-phone"></p>
+                    <p id="restaurant-hours"></p>
+                    <p id="restaurant-style"></p>
+                </div>
+                <div id="restaurant-description" class="description"></div>
+                <div class="photos-section">
+                    <h3>Photos</h3>
+                    <div id="photo-gallery" class="photo-gallery">
+                        <div class="no-photos">
+                            <p>Photos coming as soon as we get over there again!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Photo Modal -->
+        <div id="photo-modal" class="modal hidden">
+            <div class="modal-content">
+                <span class="modal-close">&times;</span>
+                <img id="modal-image" src="" alt="">
+                <div class="modal-caption" id="modal-caption"></div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer-content">
+                <p>Here's the list of remaining old-school places. To make the list, a restaurant must cook pork over hardwood coals, and it must have been around for at least 30 years.</p>
+                <ul>
+                    <li><a href="#" onclick="ncbbqMap.zoomToRestaurant(1); return false;">Bum's, Ayden</a></li>
+                    <li><a href="#" onclick="ncbbqMap.zoomToRestaurant(2); return false;">Skylight Inn, Ayden</a></li>
+                    <li><a href="#" onclick="ncbbqMap.zoomToRestaurant(3); return false;">B's, Greenville</a></li>
+                    <li><a href="#" onclick="ncbbqMap.zoomToRestaurant(4); return false;">Sid's, Beulaville</a></li>
+                    <li><a href="#" onclick="ncbbqMap.zoomToRestaurant(5); return false;">Stephenson's, Willow Spring</a></li>
+                    <li><a href="#" onclick="ncbbqMap.zoomToRestaurant(6); return false;">Wilber's, Goldsboro</a></li>
+                    <li><a href="#" onclick="ncbbqMap.zoomToRestaurant(7); return false;">Grady's, Dudley</a></li>
+                    <li><a href="#" onclick="ncbbqMap.zoomToRestaurant(8); return false;">Ken's, La Grange</a></li>
+                    <li><a href="#" onclick="ncbbqMap.zoomToRestaurant(9); return false;">Lexington BBQ, Lexington</a></li>
+                    <li><a href="#" onclick="ncbbqMap.zoomToRestaurant(10); return false;">Stamey's, Greensboro</a></li>
+                    <li><a href="#" onclick="ncbbqMap.zoomToRestaurant(11); return false;">Fuzzy's, Madison</a></li>
+                    <li><a href="#" onclick="ncbbqMap.zoomToRestaurant(12); return false;">Hursey's, Burlington</a></li>
+                    <li><a href="#" onclick="ncbbqMap.zoomToRestaurant(13); return false;">Little Richard's, Winston-Salem</a></li>
+                    <li><a href="#" onclick="ncbbqMap.zoomToRestaurant(14); return false;">Mr. Barbecue, Winston-Salem</a></li>
+                    <li><a href="#" onclick="ncbbqMap.zoomToRestaurant(15); return false;">Smokey Joe's, Lexington</a></li>
+                    <li><a href="#" onclick="ncbbqMap.zoomToRestaurant(16); return false;">Speedy Lohr's, Lexington</a></li>
+                    <li><a href="#" onclick="ncbbqMap.zoomToRestaurant(17); return false;">Troutman's, Concord</a></li>
+                    <li><a href="#" onclick="ncbbqMap.zoomToRestaurant(18); return false;">Barbecue Center, Lexington</a></li>
+                    <li><a href="#" onclick="ncbbqMap.zoomToRestaurant(19); return false;">Tarheel Q, Lexington</a></li>
+                </ul>
+                <p>A good dozen more would have been on the list a decade ago. The rest will not last! Go now!</p>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Leaflet JavaScript -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+            integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+            crossorigin=""></script>
+
+    <!-- Leaflet MarkerCluster JavaScript -->
+    <script src="https://unpkg.com/leaflet.markercluster@1.4.1/dist/leaflet.markercluster.js"></script>
+
+    <!-- Main Application Script -->
+    <script src="app.js"></script>
+</body>
+</html>
