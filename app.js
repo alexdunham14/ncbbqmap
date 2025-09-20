@@ -598,7 +598,7 @@ class NCBBQMap {
         document.getElementById('restaurant-phone').innerHTML = '';
         document.getElementById('restaurant-hours').innerHTML = '';
         document.getElementById('restaurant-style').innerHTML =
-            `<strong>Style:</strong> ${restaurant.style} North Carolina BBQ`;
+            `<strong>Style:</strong> ${restaurant.style}`;
 
         // Update description
         const descriptionEl = document.getElementById('restaurant-description');
