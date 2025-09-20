@@ -67,36 +67,31 @@ body {
     opacity: 0.9;
 }
 
-.intro {
+.header p {
     max-width: 800px;
-    margin: 0 auto;
+    margin: 1rem auto;
     text-align: left;
-    background: #fafafa;
-    padding: 2rem;
-    border-radius: 8px;
-    border: 1px solid #e8e8e8;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.03);
-}
-
-.intro p {
-    margin-bottom: 1rem;
     font-size: 1.1rem;
 }
 
-.intro h2 {
+.header h2 {
     color: #1a1a1a;
     font-family: 'Crimson Text', 'Georgia', serif;
     font-size: 1.6rem;
-    margin: 2rem 0 1rem 0;
+    margin: 2rem auto 1rem auto;
     font-weight: 600;
+    max-width: 800px;
+    text-align: left;
 }
 
-.intro ul {
-    margin: 1rem 0;
+.header ul {
+    margin: 1rem auto;
     padding-left: 2rem;
+    max-width: 800px;
+    text-align: left;
 }
 
-.intro li {
+.header li {
     margin-bottom: 0.5rem;
 }
 
