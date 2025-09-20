@@ -177,9 +177,6 @@ body {
 }
 
 .details-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     margin-bottom: 1.5rem;
     border-bottom: 2px solid #eee;
     padding-bottom: 1rem;
@@ -191,21 +188,6 @@ body {
     margin: 0;
 }
 
-.close-btn {
-    background: #2d2d2d;
-    color: white;
-    border: none;
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
-    font-size: 1.5rem;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-.close-btn:hover {
-    background: #E74C3C;
-}
 
 .restaurant-info {
     background: #f9f9f9;
@@ -526,15 +508,6 @@ body {
         min-height: 300px;
     }
 
-    .details-header {
-        flex-direction: column;
-        gap: 0.5rem;
-        align-items: flex-start;
-    }
-
-    .close-btn {
-        align-self: flex-end;
-    }
 
     .photo-gallery {
         grid-template-columns: 1fr;

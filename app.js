@@ -690,11 +690,6 @@ class NCBBQMap {
     }
 
     setupEventListeners() {
-        // Close details button
-        document.getElementById('close-details').addEventListener('click', () => {
-            this.closeRestaurantDetails();
-        });
-
         // Modal close button
         document.querySelector('.modal-close').addEventListener('click', () => {
             this.closePhotoModal();
@@ -712,8 +707,6 @@ class NCBBQMap {
             if (e.key === 'Escape') {
                 if (!document.getElementById('photo-modal').classList.contains('hidden')) {
                     this.closePhotoModal();
-                } else if (!document.getElementById('restaurant-details').classList.contains('hidden')) {
-                    this.closeRestaurantDetails();
                 }
             }
         });
