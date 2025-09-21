@@ -354,6 +354,20 @@ class NCBBQMap {
                 "description": "",
                 "photos": [],
                 "hours": ""
+            },
+            {
+                "id": 23,
+                "name": "College Barbecue",
+                "city": "Salisbury",
+                "address": "117 Statesville Blvd, Salisbury, NC 28144",
+                "lat": 35.6863,
+                "lng": -80.4843,
+                "phone": "",
+                "style": "Piedmont",
+                "status": "open",
+                "description": "",
+                "photos": [],
+                "hours": ""
             }
         ];
 
