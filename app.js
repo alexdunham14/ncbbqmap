@@ -510,9 +510,9 @@ class NCBBQMap {
     updateScrollInstructions() {
         const instructionsEl = document.querySelector('.map-instructions p');
         if (window.innerWidth <= 768) {
-            instructionsEl.textContent = '📱 Use two fingers to scroll and zoom';
+            instructionsEl.textContent = 'Use two fingers to scroll and zoom';
         } else {
-            instructionsEl.textContent = '🖱️ Hold Ctrl and scroll to zoom';
+            instructionsEl.textContent = 'Hold Ctrl and scroll to zoom';
         }
     }
 
