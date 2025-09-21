@@ -512,7 +512,7 @@ class NCBBQMap {
         if (window.innerWidth <= 768) {
             instructionsEl.textContent = 'Use two fingers to scroll and zoom';
         } else {
-            instructionsEl.textContent = 'Hold Ctrl and scroll to zoom';
+            instructionsEl.textContent = 'Hold ctrl and scroll to zoom';
         }
     }
 
