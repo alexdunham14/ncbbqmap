@@ -312,7 +312,7 @@ class NCBBQMap {
                 "description": "",
                 "photos": [],
                 "hours": ""
-            }
+            },
             {
                 "id": 20,
                 "name": "Red Bridges BBQ Lodge",
