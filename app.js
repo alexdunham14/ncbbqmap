@@ -368,6 +368,20 @@ class NCBBQMap {
                 "description": "",
                 "photos": [],
                 "hours": ""
+            },
+            {
+                "id": 24,
+                "name": "Real Q",
+                "city": "Winston-Salem",
+                "address": "4885 Country Club Rd, Winston-Salem, NC 27104",
+                "lat": 36.0827,
+                "lng": -80.3427,
+                "phone": "",
+                "style": "Piedmont",
+                "status": "open",
+                "description": "",
+                "photos": [],
+                "hours": ""
             }
         ];
 
