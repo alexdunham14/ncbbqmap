@@ -326,6 +326,34 @@ class NCBBQMap {
                 "description": "",
                 "photos": [],
                 "hours": ""
+            },
+            {
+                "id": 21,
+                "name": "Backcountry Barbecue",
+                "city": "Lexington",
+                "address": "4014 Linwood-Southmont Rd, Lexington, NC 27295",
+                "lat": 35.7646,
+                "lng": -80.3122,
+                "phone": "",
+                "style": "Piedmont",
+                "status": "open",
+                "description": "",
+                "photos": [],
+                "hours": ""
+            },
+            {
+                "id": 22,
+                "name": "Stamey's Barbecue of Tyro",
+                "city": "Lexington",
+                "address": "4524 North Carolina Hwy 150, Lexington, NC 27295",
+                "lat": 35.8068,
+                "lng": -80.3760,
+                "phone": "",
+                "style": "Piedmont",
+                "status": "open",
+                "description": "",
+                "photos": [],
+                "hours": ""
             }
         ];
 
