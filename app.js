@@ -42,24 +42,7 @@ class NCBBQMap {
                 "style": "Eastern",
                 "status": "open",
                 "description": "",
-                "photos": [
-                    // Example photo structure - uncomment and update when you add photos:
-                    // {
-                    //     "url": "./photos/bums-restaurant/exterior.jpg",
-                    //     "caption": "Bum's Restaurant exterior",
-                    //     "alt": "Front view of Bum's Restaurant building in Ayden"
-                    // },
-                    // {
-                    //     "url": "./photos/bums-restaurant/interior.jpg",
-                    //     "caption": "Interior dining area",
-                    //     "alt": "Inside Bum's Restaurant dining room"
-                    // },
-                    // {
-                    //     "url": "./photos/bums-restaurant/food.jpg",
-                    //     "caption": "Traditional Eastern NC BBQ plate",
-                    //     "alt": "Chopped pork barbecue with slaw and hush puppies"
-                    // }
-                ]
+                "photos": []
             },
             {
                 "id": 2,
@@ -148,7 +131,13 @@ class NCBBQMap {
                 "style": "Eastern",
                 "status": "open",
                 "description": "",
-                "photos": [],
+                "photos": [
+                    {
+                        "url": "./photos/gradys/gradys_plate.jpg",
+                        "caption": "Grady's bbq plate to go with collards, boiled potatoes, and hushpuppies",
+                        "alt": "Grady's bbq plate"
+                    }
+                ],
                 "hours": ""
             },
             {
@@ -705,7 +694,7 @@ class NCBBQMap {
 
         if (restaurant.photos && restaurant.photos.length > 0) {
             gallery.innerHTML = restaurant.photos.map((photo, index) => `
-                <div class="photo-item" onclick="ncbbqMap.openPhotoModal('${photo.url}', '${photo.caption || photo.alt || restaurant.name}')">
+                <div class="photo-item">
                     <img
                         src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='150'%3E%3Crect width='100%25' height='100%25' fill='%23f0f0f0'/%3E%3Ctext x='50%25' y='50%25' text-anchor='middle' dy='.3em' fill='%23999'%3ELoading...%3C/text%3E%3C/svg%3E"
                         data-src="${photo.url}"
