@@ -230,12 +230,6 @@ body {
     aspect-ratio: 4/3;
     overflow: hidden;
     border-radius: 8px;
-    cursor: pointer;
-    transition: transform 0.3s;
-}
-
-.photo-item:hover {
-    transform: scale(1.05);
 }
 
 .photo-item img {
@@ -259,11 +253,6 @@ body {
     padding: 1rem 0.5rem 0.5rem;
     font-size: 0.9rem;
     text-align: center;
-    opacity: 0;
-    transition: opacity 0.3s;
-}
-
-.photo-item:hover .photo-caption {
     opacity: 1;
 }
 

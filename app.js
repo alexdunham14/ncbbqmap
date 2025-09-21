@@ -114,7 +114,13 @@ class NCBBQMap {
                 "style": "Eastern",
                 "status": "open",
                 "description": "",
-                "photos": [],
+                "photos": [                    
+                    {
+                        "url": "./photos/stephensons/stephensons_plate.jpg",
+                        "caption": "Stephenson's 'Large Pig' plate with cole slaw, bbq boiled potatoes, and an extra side of seasonal collards",
+                        "alt": "Stephenson's bbq plate"
+                    }
+                ],
                 "hours": "Mon-Sat 10am-9pm (Mar-Sep), 10am-8pm (Oct-Feb), Sun Closed"
             },
             {
