@@ -83,7 +83,26 @@ class NCBBQMap {
                 "style": "Eastern",
                 "status": "open",
                 "description": "",
-                "photos": [],
+                "photos": [
+                    {
+                        "url": "./photos/sids/sids_plate.jpg",
+                        "caption": "Sid's bbq plate with cole slaw, hushpuppies, and skin",
+                        "alt": "Sid's bbq plate with cole slaw, hushpuppies, and skin",
+                        "source": {
+                            "name": "John Tanner's Barbecue Blog",
+                            "url": "https://johntannersbbqblog.wordpress.com/2022/08/27/sids-catering-beulaville-north-carolina/"
+                        }
+                    },
+                    {
+                        "url": "./photos/sids/sids_pitmaster.jpg",
+                        "caption": "Sid Blizzard, pitmaster",
+                        "alt": "Sid Blizzard, pitmaster",
+                        "source": {
+                            "name": "John Tanner's Barbecue Blog",
+                            "url": "https://johntannersbbqblog.wordpress.com/2022/08/27/sids-catering-beulaville-north-carolina/"
+                        }
+                    }
+                ],
                 "hours": "Sat 8am-2pm"
             },
             {
@@ -693,19 +712,28 @@ class NCBBQMap {
         const gallery = document.getElementById('photo-gallery');
 
         if (restaurant.photos && restaurant.photos.length > 0) {
-            gallery.innerHTML = restaurant.photos.map((photo, index) => `
-                <div class="photo-item">
-                    <img
-                        src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='150'%3E%3Crect width='100%25' height='100%25' fill='%23f0f0f0'/%3E%3Ctext x='50%25' y='50%25' text-anchor='middle' dy='.3em' fill='%23999'%3ELoading...%3C/text%3E%3C/svg%3E"
-                        data-src="${photo.url}"
-                        alt="${photo.alt || photo.caption || restaurant.name}"
-                        class="lazy-load"
-                        loading="lazy"
-                        onerror="this.onerror=null; this.src='data:image/svg+xml,%3Csvg xmlns=\\'http://www.w3.org/2000/svg\\' width=\\'200\\' height=\\'150\\'%3E%3Crect width=\\'100%25\\' height=\\'100%25\\' fill=\\'%23f5f5f5\\'/%3E%3Ctext x=\\'50%25\\' y=\\'50%25\\' text-anchor=\\'middle\\' dy=\\'.3em\\' fill=\\'%23999\\' font-size=\\'12\\'%3EPhoto unavailable%3C/text%3E%3C/svg%3E';"
-                    >
-                    ${photo.caption ? `<div class="photo-caption">${photo.caption}</div>` : ''}
-                </div>
-            `).join('');
+            gallery.innerHTML = restaurant.photos.map((photo, index) => {
+                const sourceHtml = photo.source && photo.source.url && photo.source.name
+                    ? `<div class="photo-source">Source: <a href="${photo.source.url}" target="_blank" rel="noopener">${photo.source.name}</a></div>`
+                    : '';
+
+                return `
+                    <div class="photo-container">
+                        <div class="photo-item">
+                            <img
+                                src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='150'%3E%3Crect width='100%25' height='100%25' fill='%23f0f0f0'/%3E%3Ctext x='50%25' y='50%25' text-anchor='middle' dy='.3em' fill='%23999'%3ELoading...%3C/text%3E%3C/svg%3E"
+                                data-src="${photo.url}"
+                                alt="${photo.alt || photo.caption || restaurant.name}"
+                                class="lazy-load"
+                                loading="lazy"
+                                onerror="this.onerror=null; this.src='data:image/svg+xml,%3Csvg xmlns=\\'http://www.w3.org/2000/svg\\' width=\\'200\\' height=\\'150\\'%3E%3Crect width=\\'100%25\\' height=\\'100%25\\' fill=\\'%23f5f5f5\\'/%3E%3Ctext x=\\'50%25\\' y=\\'50%25\\' text-anchor=\\'middle\\' dy=\\'.3em\\' fill=\\'%23999\\' font-size=\\'12\\'%3EPhoto unavailable%3C/text%3E%3C/svg%3E';"
+                            >
+                            ${photo.caption ? `<div class="photo-caption">${photo.caption}</div>` : ''}
+                        </div>
+                        ${sourceHtml}
+                    </div>
+                `;
+            }).join('');
 
             // Initialize lazy loading for new images
             this.initializeLazyLoading();
