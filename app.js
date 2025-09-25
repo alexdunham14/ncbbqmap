@@ -69,7 +69,22 @@ class NCBBQMap {
                 "style": "Eastern",
                 "status": "open",
                 "description": "",
-                "photos": [],
+                "photos": [
+                    {
+                        "url": "./photos/bsbbq/bs_plate.jpg",
+                        "caption": "B's bbq plate with cole slaw, fries, and corn sticks",
+                        "alt": "B's bbq plate with cole slaw, fries, and corn sticks",
+                    },
+                    {
+                        "url": "./photos/bsbbq/bs-chicken.jpg",
+                        "caption": "B's chicken--exception that proves the rule!",
+                        "alt": "B's chicken",
+                        "source": {
+                            "name": "John Tanner's Barbecue Blog",
+                            "url": "https://johntannersbbqblog.wordpress.com/2024/08/06/bs-barbecue-greenville-north-carolina-3/"
+                        }
+                    }
+                ],
                 "hours": "Tue-Sat 9am-2:30pm, Sun-Mon Closed"
             },
             {
