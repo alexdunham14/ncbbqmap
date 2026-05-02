@@ -1,0 +1,883 @@
+[
+  {
+    "id": 1,
+    "slug": "bums",
+    "name": "Bum's Restaurant",
+    "city": "Ayden",
+    "address": "566 3rd Street, Ayden, NC 28513",
+    "lat": 35.4708,
+    "lng": -77.4169,
+    "phone": "",
+    "hours": "",
+    "style": "Eastern",
+    "status": "open",
+    "description": "",
+    "photos": [
+      {
+        "url": "./photos/bums/bums-ext.jpg",
+        "caption": "Bum's Restaurant exterior",
+        "alt": "Bum's Restaurant from the outside",
+        "source": {
+          "name": "John Tanner's Barbecue Blog",
+          "url": "https://johntannersbbqblog.wordpress.com/"
+        }
+      },
+      {
+        "url": "./photos/bums/bums-j-plate1.jpg",
+        "caption": "Bum's barbecue plate",
+        "alt": "Bum's barbecue plate",
+        "source": {
+          "name": "John Tanner's Barbecue Blog",
+          "url": "https://johntannersbbqblog.wordpress.com/"
+        }
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "slug": "skylight_inn",
+    "name": "Skylight Inn",
+    "city": "Ayden",
+    "address": "4618 Lee Street, Ayden, NC 28513",
+    "lat": 35.4611,
+    "lng": -77.4233,
+    "phone": "(252) 746-4113",
+    "hours": "Mon-Sat 10am-7pm, Sun Closed",
+    "style": "Eastern",
+    "status": "open",
+    "description": "",
+    "photos": [
+      {
+        "url": "./photos/skylight_inn/skylight_inn_ext.jpg",
+        "caption": "Skylight Inn \u2014 the iconic dome",
+        "alt": "Skylight Inn \u2014 the iconic dome",
+        "source": {
+          "name": "John Tanner's Barbecue Blog",
+          "url": "https://johntannersbbqblog.wordpress.com/2020/08/03/the-skylight-inn-ayden-north-carolina/"
+        }
+      },
+      {
+        "url": "./photos/skylight_inn/skylight_inn_tray.jpg",
+        "caption": "Skylight Inn small tray with chopped pork, slaw, and cornbread",
+        "alt": "Skylight Inn small tray with chopped pork, slaw, and cornbread",
+        "source": {
+          "name": "John Tanner's Barbecue Blog",
+          "url": "https://johntannersbbqblog.wordpress.com/2024/08/11/skylight-inn-ayden-north-carolina-3/"
+        }
+      },
+      {
+        "url": "./photos/skylight_inn/skylight_inn_cornbread.jpg",
+        "caption": "Skylight Inn cornbread",
+        "alt": "Skylight Inn cornbread",
+        "source": {
+          "name": "John Tanner's Barbecue Blog",
+          "url": "https://johntannersbbqblog.wordpress.com/2024/08/11/skylight-inn-ayden-north-carolina-3/"
+        }
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "slug": "bsbbq",
+    "name": "B's Barbecue",
+    "city": "Greenville",
+    "address": "751 B's Barbecue Road, Greenville, NC 27858",
+    "lat": 35.621,
+    "lng": -77.4173,
+    "phone": "(252) 758-7126",
+    "hours": "Tue-Sat 9am-2:30pm, Sun-Mon Closed",
+    "style": "Eastern",
+    "status": "open",
+    "description": "",
+    "photos": [
+      {
+        "url": "./photos/bsbbq/bs_plate.jpg",
+        "caption": "B's bbq plate with cole slaw, fries, and corn sticks",
+        "alt": "B's bbq plate with cole slaw, fries, and corn sticks"
+      },
+      {
+        "url": "./photos/bsbbq/bs-chicken.jpg",
+        "caption": "B's chicken--exception that proves the rule!",
+        "alt": "B's chicken",
+        "source": {
+          "name": "John Tanner's Barbecue Blog",
+          "url": "https://johntannersbbqblog.wordpress.com/2024/08/06/bs-barbecue-greenville-north-carolina-3/"
+        }
+      },
+      {
+        "url": "./photos/bsbbq/bs-ext.jpg",
+        "caption": "B's milieu",
+        "alt": "B's milieu",
+        "source": {
+          "name": "John Tanner's Barbecue Blog",
+          "url": "https://johntannersbbqblog.wordpress.com/2024/08/06/bs-barbecue-greenville-north-carolina-3/"
+        }
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "slug": "sids",
+    "name": "Sid's Catering",
+    "city": "Beulaville",
+    "address": "455 S Railroad Ave, Beulaville, NC 28518",
+    "lat": 34.9179,
+    "lng": -77.7788,
+    "phone": "(910) 298-3549",
+    "hours": "Sat 8am-2pm",
+    "style": "Eastern",
+    "status": "open",
+    "description": "",
+    "photos": [
+      {
+        "url": "./photos/sids/sids_plate.jpg",
+        "caption": "Sid's bbq plate with cole slaw, hushpuppies, and skin",
+        "alt": "Sid's bbq plate with cole slaw, hushpuppies, and skin",
+        "source": {
+          "name": "John Tanner's Barbecue Blog",
+          "url": "https://johntannersbbqblog.wordpress.com/2022/08/27/sids-catering-beulaville-north-carolina/"
+        }
+      },
+      {
+        "url": "./photos/sids/sids_pitmaster.jpg",
+        "caption": "Sid Blizzard, pitmaster",
+        "alt": "Sid Blizzard, pitmaster",
+        "source": {
+          "name": "John Tanner's Barbecue Blog",
+          "url": "https://johntannersbbqblog.wordpress.com/2022/08/27/sids-catering-beulaville-north-carolina/"
+        }
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "slug": "stephensons",
+    "name": "Stephenson's Barbecue",
+    "city": "Willow Spring",
+    "address": "11964 NC 50 Highway North, Willow Spring, NC 27592",
+    "lat": 35.5356,
+    "lng": -78.5805,
+    "phone": "(919) 894-4530",
+    "hours": "Mon-Sat 10am-9pm (Mar-Sep), 10am-8pm (Oct-Feb), Sun Closed",
+    "style": "Eastern",
+    "status": "open",
+    "description": "",
+    "photos": [
+      {
+        "url": "./photos/stephensons/stephensons_plate.jpg",
+        "caption": "Stephenson's 'Large Pig' plate with cole slaw, bbq boiled potatoes, and an extra side of seasonal collards",
+        "alt": "Stephenson's bbq plate"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "slug": "wilbers",
+    "name": "Wilber's Barbecue",
+    "city": "Goldsboro",
+    "address": "4172 US Highway 70 E, Goldsboro, NC 27534",
+    "lat": 35.3505,
+    "lng": -77.9224,
+    "phone": "(919) 778-5218",
+    "hours": "Wed-Thu 11am-7pm, Fri 11am-2pm, Sat 11am-7pm, Sun 11am-3pm",
+    "style": "Eastern",
+    "status": "open",
+    "description": "",
+    "photos": [
+      {
+        "url": "./photos/wilbers/wilbers_ext.jpg",
+        "caption": "Wilber's Barbecue from the outside",
+        "alt": "Wilber's Barbecue from the outside",
+        "source": {
+          "name": "John Tanner's Barbecue Blog",
+          "url": "https://johntannersbbqblog.wordpress.com/2025/07/16/wilbers-barbecue-goldsboro-north-carolina-the-2025-georgia-tour-beer-snob-pig-picking-extension/"
+        }
+      },
+      {
+        "url": "./photos/wilbers/wilbers_plate.jpg",
+        "caption": "Wilber's barbecue plate",
+        "alt": "Wilber's barbecue plate",
+        "source": {
+          "name": "John Tanner's Barbecue Blog",
+          "url": "https://johntannersbbqblog.wordpress.com/2025/07/16/wilbers-barbecue-goldsboro-north-carolina-the-2025-georgia-tour-beer-snob-pig-picking-extension/"
+        }
+      },
+      {
+        "url": "./photos/wilbers/wilbers_hushpuppies.jpg",
+        "caption": "Hushpuppies at Wilber's",
+        "alt": "Hushpuppies at Wilber's",
+        "source": {
+          "name": "John Tanner's Barbecue Blog",
+          "url": "https://johntannersbbqblog.wordpress.com/2025/07/16/wilbers-barbecue-goldsboro-north-carolina-the-2025-georgia-tour-beer-snob-pig-picking-extension/"
+        }
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "slug": "gradys",
+    "name": "Grady's Barbecue",
+    "city": "Dudley",
+    "address": "3096 Arrington Bridge Rd, Dudley, NC 28333",
+    "lat": 35.2652,
+    "lng": -77.9598,
+    "phone": "(919) 735-7243",
+    "hours": "",
+    "style": "Eastern",
+    "status": "open",
+    "description": "",
+    "photos": [
+      {
+        "url": "./photos/gradys/gradys_plate.jpg",
+        "caption": "Grady's bbq plate to go with collards, boiled potatoes, and hushpuppies",
+        "alt": "Grady's bbq plate"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "slug": "lexington_bbq",
+    "name": "Lexington Barbecue",
+    "city": "Lexington",
+    "address": "100 Smokehouse Lane, Lexington, NC 27295",
+    "lat": 35.834,
+    "lng": -80.2675,
+    "phone": "(336) 249-9814",
+    "hours": "Mon-Sat 10am-9pm, Sun Closed",
+    "style": "Piedmont",
+    "status": "open",
+    "description": "",
+    "photos": [
+      {
+        "url": "./photos/lexington_bbq/lexington_bbq_ext.jpg",
+        "caption": "Lexington Barbecue \u2014 the Honey Monk",
+        "alt": "Lexington Barbecue \u2014 the Honey Monk",
+        "source": {
+          "name": "John Tanner's Barbecue Blog",
+          "url": "https://johntannersbbqblog.wordpress.com/2019/10/20/back-to-lexington-barbecue-1-lexington-north-carolina/"
+        }
+      },
+      {
+        "url": "./photos/lexington_bbq/lexington_bbq_plate.jpg",
+        "caption": "Lexington Barbecue chopped pork plate",
+        "alt": "Lexington Barbecue chopped pork plate",
+        "source": {
+          "name": "John Tanner's Barbecue Blog",
+          "url": "https://johntannersbbqblog.wordpress.com/2019/10/20/back-to-lexington-barbecue-1-lexington-north-carolina/"
+        }
+      },
+      {
+        "url": "./photos/lexington_bbq/lexington_bbq_hushpuppies.jpg",
+        "caption": "Lexington Barbecue hushpuppies",
+        "alt": "Lexington Barbecue hushpuppies",
+        "source": {
+          "name": "John Tanner's Barbecue Blog",
+          "url": "https://johntannersbbqblog.wordpress.com/2019/10/20/back-to-lexington-barbecue-1-lexington-north-carolina/"
+        }
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "slug": "stameys",
+    "name": "Stamey's Barbecue",
+    "city": "Greensboro",
+    "address": "2206 W Gate City Blvd, Greensboro, NC 27403",
+    "lat": 36.059,
+    "lng": -79.8281,
+    "phone": "",
+    "hours": "Mon-Sat 10:30am-9pm, Sun Closed",
+    "style": "Piedmont",
+    "status": "open",
+    "description": "",
+    "photos": [
+      {
+        "url": "./photos/stameys/stameys_plate.jpg",
+        "caption": "Stamey's barbecue plate",
+        "alt": "Stamey's barbecue plate",
+        "source": {
+          "name": "John Tanner's Barbecue Blog",
+          "url": "https://johntannersbbqblog.wordpress.com/2022/06/19/stameys-greensboro-north-carolina/"
+        }
+      },
+      {
+        "url": "./photos/stameys/stameys_hushpuppies.jpg",
+        "caption": "Stamey's hushpuppies",
+        "alt": "Stamey's hushpuppies",
+        "source": {
+          "name": "John Tanner's Barbecue Blog",
+          "url": "https://johntannersbbqblog.wordpress.com/2022/06/19/stameys-greensboro-north-carolina/"
+        }
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "slug": "fuzzys",
+    "name": "Fuzzy's Bar-B-Q",
+    "city": "Madison",
+    "address": "407 N. Highway Street, Madison, NC 27025",
+    "lat": 36.3924,
+    "lng": -79.9695,
+    "phone": "(336) 427-4130",
+    "hours": "Mon-Sat 7am-7pm, Sun 7am-5pm",
+    "style": "Piedmont",
+    "status": "open",
+    "description": "",
+    "photos": [
+      {
+        "url": "./photos/fuzzys/fuzzys_sign.jpg",
+        "caption": "Fuzzy's Bar-B-Q sign",
+        "alt": "Fuzzy's Bar-B-Q sign",
+        "source": {
+          "name": "John Tanner's Barbecue Blog",
+          "url": "https://johntannersbbqblog.wordpress.com/2021/10/01/fuzzys-bar-b-q-madison-north-carolina-on-the-north-carolina-historic-barbecue-trail/"
+        }
+      },
+      {
+        "url": "./photos/fuzzys/fuzzys_plate.jpg",
+        "caption": "Fuzzy's barbecue plate",
+        "alt": "Fuzzy's barbecue plate",
+        "source": {
+          "name": "John Tanner's Barbecue Blog",
+          "url": "https://johntannersbbqblog.wordpress.com/2021/10/01/fuzzys-bar-b-q-madison-north-carolina-on-the-north-carolina-historic-barbecue-trail/"
+        }
+      },
+      {
+        "url": "./photos/fuzzys/fuzzys_interior.jpg",
+        "caption": "Inside Fuzzy's",
+        "alt": "Inside Fuzzy's",
+        "source": {
+          "name": "John Tanner's Barbecue Blog",
+          "url": "https://johntannersbbqblog.wordpress.com/2021/10/01/fuzzys-bar-b-q-madison-north-carolina-on-the-north-carolina-historic-barbecue-trail/"
+        }
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "slug": "hurseys",
+    "name": "Hursey's Bar-B-Q",
+    "city": "Burlington",
+    "address": "1834 S Church St, Burlington, NC 27215",
+    "lat": 36.0821,
+    "lng": -79.4628,
+    "phone": "",
+    "hours": "",
+    "style": "Piedmont",
+    "status": "open",
+    "description": "",
+    "photos": [
+      {
+        "url": "./photos/hurseys/hurseys_sign.jpg",
+        "caption": "Hursey's Bar-B-Q sign",
+        "alt": "Hursey's Bar-B-Q sign",
+        "source": {
+          "name": "John Tanner's Barbecue Blog",
+          "url": "https://johntannersbbqblog.wordpress.com/2021/09/28/hurseys-bar-b-q-burlington-north-carolina-on-the-north-carolina-historic-barbecue-trail/"
+        }
+      },
+      {
+        "url": "./photos/hurseys/hurseys_plate.jpg",
+        "caption": "Hursey's barbecue plate",
+        "alt": "Hursey's barbecue plate",
+        "source": {
+          "name": "John Tanner's Barbecue Blog",
+          "url": "https://johntannersbbqblog.wordpress.com/2021/09/28/hurseys-bar-b-q-burlington-north-carolina-on-the-north-carolina-historic-barbecue-trail/"
+        }
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "slug": "mr_barbecue",
+    "name": "Mr. Barbecue",
+    "city": "Winston-Salem",
+    "address": "1381 Peters Creek Parkway, Winston-Salem, NC 27103",
+    "lat": 36.0747,
+    "lng": -80.258,
+    "phone": "(336) 725-7827",
+    "hours": "Mon-Sat 10:30am-8pm, Sun Closed",
+    "style": "Piedmont",
+    "status": "open",
+    "description": "",
+    "photos": [
+      {
+        "url": "./photos/mr_barbecue/mr_barbecue_sign.jpg",
+        "caption": "Mr. Barbecue sign",
+        "alt": "Mr. Barbecue sign",
+        "source": {
+          "name": "John Tanner's Barbecue Blog",
+          "url": "https://johntannersbbqblog.wordpress.com/2021/10/05/mr-barbecue-winston-salem-north-carolina/"
+        }
+      },
+      {
+        "url": "./photos/mr_barbecue/mr_barbecue_plate.jpg",
+        "caption": "Mr. Barbecue plate",
+        "alt": "Mr. Barbecue plate",
+        "source": {
+          "name": "John Tanner's Barbecue Blog",
+          "url": "https://johntannersbbqblog.wordpress.com/2021/10/05/mr-barbecue-winston-salem-north-carolina/"
+        }
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "slug": "smokey_joes",
+    "name": "Smokey Joe's Barbecue",
+    "city": "Lexington",
+    "address": "1101 S Main St, Lexington, NC 27292",
+    "lat": 35.8132,
+    "lng": -80.2647,
+    "phone": "(336) 249-0315",
+    "hours": "",
+    "style": "Piedmont",
+    "status": "open",
+    "description": "",
+    "photos": []
+  },
+  {
+    "id": 16,
+    "slug": "speedy_lohrs",
+    "name": "Speedy Lohr's BBQ",
+    "city": "Lexington",
+    "address": "3664 NC Highway 8, Lexington, NC 27292",
+    "lat": 35.763,
+    "lng": -80.264,
+    "phone": "(336) 242-9195",
+    "hours": "",
+    "style": "Piedmont",
+    "status": "open",
+    "description": "",
+    "photos": [
+      {
+        "url": "./photos/speedy_lohrs/speedy_lohrs_ext.jpg",
+        "caption": "Speedy Lohr's from outside",
+        "alt": "Speedy Lohr's from outside",
+        "source": {
+          "name": "John Tanner's Barbecue Blog",
+          "url": "https://johntannersbbqblog.wordpress.com/2023/02/02/speedy-lohrs-barbecue-lexington-north-carolina/"
+        }
+      },
+      {
+        "url": "./photos/speedy_lohrs/speedy_lohrs_tray.jpg",
+        "caption": "Speedy Lohr's tray of barbecue",
+        "alt": "Speedy Lohr's tray of barbecue",
+        "source": {
+          "name": "John Tanner's Barbecue Blog",
+          "url": "https://johntannersbbqblog.wordpress.com/2023/02/02/speedy-lohrs-barbecue-lexington-north-carolina/"
+        }
+      },
+      {
+        "url": "./photos/speedy_lohrs/speedy_lohrs_sign.jpg",
+        "caption": "Speedy Lohr's sign",
+        "alt": "Speedy Lohr's sign",
+        "source": {
+          "name": "John Tanner's Barbecue Blog",
+          "url": "https://johntannersbbqblog.wordpress.com/2023/02/02/speedy-lohrs-barbecue-lexington-north-carolina/"
+        }
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "slug": "troutmans",
+    "name": "Troutman's Barbecue",
+    "city": "Denton",
+    "address": "18466 NC-109, Denton, NC 27239",
+    "lat": 35.6249,
+    "lng": -80.1083,
+    "phone": "",
+    "hours": "",
+    "style": "Piedmont",
+    "status": "open",
+    "description": "",
+    "photos": [
+      {
+        "url": "./photos/troutmans/troutmans_tray.jpg",
+        "caption": "Troutman's tray of barbecue",
+        "alt": "Troutman's tray of barbecue",
+        "source": {
+          "name": "John Tanner's Barbecue Blog",
+          "url": "https://johntannersbbqblog.wordpress.com/2022/02/16/troutmans-bbq-denton-north-carolina/"
+        }
+      },
+      {
+        "url": "./photos/troutmans/troutmans_banana_pudding.jpg",
+        "caption": "Troutman's banana pudding",
+        "alt": "Troutman's banana pudding",
+        "source": {
+          "name": "John Tanner's Barbecue Blog",
+          "url": "https://johntannersbbqblog.wordpress.com/2022/02/16/troutmans-bbq-denton-north-carolina/"
+        }
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "slug": "barbecue_center",
+    "name": "Barbecue Center",
+    "city": "Lexington",
+    "address": "900 N Main St, Lexington, NC 27292",
+    "lat": 35.8314,
+    "lng": -80.2442,
+    "phone": "",
+    "hours": "Mon-Sat 11am-8pm, Sun Closed",
+    "style": "Piedmont",
+    "status": "open",
+    "description": "",
+    "photos": [
+      {
+        "url": "./photos/barbecue_center/barbecue_center_ext.jpg",
+        "caption": "Barbecue Center exterior",
+        "alt": "Barbecue Center exterior",
+        "source": {
+          "name": "John Tanner's Barbecue Blog",
+          "url": "https://johntannersbbqblog.wordpress.com/2016/06/30/north-carolina-tour-de-barbecue-the-barbecue-center-lexington/"
+        }
+      },
+      {
+        "url": "./photos/barbecue_center/barbecue_center_plate.jpg",
+        "caption": "Barbecue Center plate",
+        "alt": "Barbecue Center plate",
+        "source": {
+          "name": "John Tanner's Barbecue Blog",
+          "url": "https://johntannersbbqblog.wordpress.com/2016/06/30/north-carolina-tour-de-barbecue-the-barbecue-center-lexington/"
+        }
+      },
+      {
+        "url": "./photos/barbecue_center/barbecue_center_2020.jpg",
+        "caption": "Barbecue Center plate",
+        "alt": "Barbecue Center plate",
+        "source": {
+          "name": "John Tanner's Barbecue Blog",
+          "url": "https://johntannersbbqblog.wordpress.com/2020/10/30/the-barbecue-center-lexington-north-carolina/"
+        }
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "slug": "tarheel_q",
+    "name": "Tarheel Q",
+    "city": "Lexington",
+    "address": "6835 W US Highway 64, Lexington, NC 27295",
+    "lat": 35.8574,
+    "lng": -80.382,
+    "phone": "(336) 787-4550",
+    "hours": "",
+    "style": "Piedmont",
+    "status": "open",
+    "description": "",
+    "photos": [
+      {
+        "url": "./photos/tarheel_q/tarheel_q_ext.jpg",
+        "caption": "Tarheel Q from outside",
+        "alt": "Tarheel Q from outside",
+        "source": {
+          "name": "John Tanner's Barbecue Blog",
+          "url": "https://johntannersbbqblog.wordpress.com/2026/04/18/tarheel-q-lexington-north-carolina-2/"
+        }
+      },
+      {
+        "url": "./photos/tarheel_q/tarheel_q_plate.jpg",
+        "caption": "Tarheel Q barbecue plate",
+        "alt": "Tarheel Q barbecue plate",
+        "source": {
+          "name": "John Tanner's Barbecue Blog",
+          "url": "https://johntannersbbqblog.wordpress.com/2026/04/18/tarheel-q-lexington-north-carolina-2/"
+        }
+      },
+      {
+        "url": "./photos/tarheel_q/tarheel_q_interior.jpg",
+        "caption": "Inside Tarheel Q",
+        "alt": "Inside Tarheel Q",
+        "source": {
+          "name": "John Tanner's Barbecue Blog",
+          "url": "https://johntannersbbqblog.wordpress.com/2026/04/18/tarheel-q-lexington-north-carolina-2/"
+        }
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "slug": "red_bridges",
+    "name": "Red Bridges BBQ Lodge",
+    "city": "Shelby",
+    "address": "2000 E Dixon Blvd, Shelby, NC 28150",
+    "lat": 35.2657,
+    "lng": -81.4808,
+    "phone": "",
+    "hours": "",
+    "style": "Piedmont",
+    "status": "open",
+    "description": "",
+    "photos": [
+      {
+        "url": "./photos/red_bridges/red_bridges_tray.jpg",
+        "caption": "Red Bridges barbecue tray",
+        "alt": "Red Bridges barbecue tray",
+        "source": {
+          "name": "John Tanner's Barbecue Blog",
+          "url": "https://johntannersbbqblog.wordpress.com/2025/09/17/red-bridges-barbecue-lodge-shelby-north-carolina-2/"
+        }
+      },
+      {
+        "url": "./photos/red_bridges/red_bridges_hushpuppies.jpg",
+        "caption": "Red Bridges hushpuppies",
+        "alt": "Red Bridges hushpuppies",
+        "source": {
+          "name": "John Tanner's Barbecue Blog",
+          "url": "https://johntannersbbqblog.wordpress.com/2025/09/17/red-bridges-barbecue-lodge-shelby-north-carolina-2/"
+        }
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "slug": "backcountry",
+    "name": "Backcountry Barbecue",
+    "city": "Lexington",
+    "address": "4014 Linwood-Southmont Rd, Lexington, NC 27295",
+    "lat": 35.7646,
+    "lng": -80.3122,
+    "phone": "",
+    "hours": "",
+    "style": "Piedmont",
+    "status": "open",
+    "description": "",
+    "photos": [
+      {
+        "url": "./photos/backcountry/backcountry_ext.jpg",
+        "caption": "Backcountry Barbecue from outside",
+        "alt": "Backcountry Barbecue from outside",
+        "source": {
+          "name": "John Tanner's Barbecue Blog",
+          "url": "https://johntannersbbqblog.wordpress.com/2025/08/20/backcountry-barbeque-lexington-north-carolina-2/"
+        }
+      },
+      {
+        "url": "./photos/backcountry/backcountry_plate.jpg",
+        "caption": "Backcountry barbecue plate",
+        "alt": "Backcountry barbecue plate",
+        "source": {
+          "name": "John Tanner's Barbecue Blog",
+          "url": "https://johntannersbbqblog.wordpress.com/2025/08/20/backcountry-barbeque-lexington-north-carolina-2/"
+        }
+      },
+      {
+        "url": "./photos/backcountry/backcountry_pit.jpg",
+        "caption": "Backcountry's rotisserie pit",
+        "alt": "Backcountry's rotisserie pit",
+        "source": {
+          "name": "John Tanner's Barbecue Blog",
+          "url": "https://johntannersbbqblog.wordpress.com/2025/08/20/backcountry-barbeque-lexington-north-carolina-2/"
+        }
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "slug": "stameys_tyro",
+    "name": "Stamey's Barbecue of Tyro",
+    "city": "Lexington",
+    "address": "4524 North Carolina Hwy 150, Lexington, NC 27295",
+    "lat": 35.8068,
+    "lng": -80.376,
+    "phone": "",
+    "hours": "",
+    "style": "Piedmont",
+    "status": "open",
+    "description": "",
+    "photos": []
+  },
+  {
+    "id": 23,
+    "slug": "college_bbq",
+    "name": "College Barbecue",
+    "city": "Salisbury",
+    "address": "117 Statesville Blvd, Salisbury, NC 28144",
+    "lat": 35.6863,
+    "lng": -80.4843,
+    "phone": "",
+    "hours": "",
+    "style": "Piedmont",
+    "status": "open",
+    "description": "",
+    "photos": [
+      {
+        "url": "./photos/college_bbq/college_bbq_ext.jpg",
+        "caption": "College Barbecue from outside",
+        "alt": "College Barbecue from outside",
+        "source": {
+          "name": "John Tanner's Barbecue Blog",
+          "url": "https://johntannersbbqblog.wordpress.com/2025/08/30/college-barbecue-salisbury-north-carolina/"
+        }
+      },
+      {
+        "url": "./photos/college_bbq/college_bbq_sandwich.jpg",
+        "caption": "College Barbecue chopped pork sandwich",
+        "alt": "College Barbecue chopped pork sandwich",
+        "source": {
+          "name": "John Tanner's Barbecue Blog",
+          "url": "https://johntannersbbqblog.wordpress.com/2025/08/30/college-barbecue-salisbury-north-carolina/"
+        }
+      },
+      {
+        "url": "./photos/college_bbq/college_bbq_interior.jpg",
+        "caption": "Inside College Barbecue",
+        "alt": "Inside College Barbecue",
+        "source": {
+          "name": "John Tanner's Barbecue Blog",
+          "url": "https://johntannersbbqblog.wordpress.com/2025/08/30/college-barbecue-salisbury-north-carolina/"
+        }
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "slug": "real_q",
+    "name": "Real Q",
+    "city": "Winston-Salem",
+    "address": "4885 Country Club Rd, Winston-Salem, NC 27104",
+    "lat": 36.0827,
+    "lng": -80.3427,
+    "phone": "",
+    "hours": "",
+    "style": "Piedmont",
+    "status": "open",
+    "description": "",
+    "photos": [
+      {
+        "url": "./photos/real_q/real_q_sign.jpg",
+        "caption": "Real Q sign",
+        "alt": "Real Q sign",
+        "source": {
+          "name": "John Tanner's Barbecue Blog",
+          "url": "https://johntannersbbqblog.wordpress.com/2021/09/30/real-q-winston-salem-north-carolina-on-the-north-carolina-historic-barbecue-trail/"
+        }
+      },
+      {
+        "url": "./photos/real_q/real_q_plate.jpg",
+        "caption": "Real Q barbecue plate",
+        "alt": "Real Q barbecue plate",
+        "source": {
+          "name": "John Tanner's Barbecue Blog",
+          "url": "https://johntannersbbqblog.wordpress.com/2021/09/30/real-q-winston-salem-north-carolina-on-the-north-carolina-historic-barbecue-trail/"
+        }
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "slug": "sam_jones_winterville",
+    "name": "Sam Jones BBQ",
+    "city": "Winterville",
+    "address": "715 W Fire Tower Rd, Winterville, NC 28590",
+    "lat": 35.5476,
+    "lng": -77.402,
+    "phone": "",
+    "hours": "",
+    "style": "Eastern",
+    "status": "open",
+    "description": "The restaurant is new, but the family is barbecue royalty.",
+    "photos": [
+      {
+        "url": "./photos/sam_jones_winterville/sam_jones_winterville_interior.jpg",
+        "caption": "Inside Sam Jones BBQ Winterville",
+        "alt": "Inside Sam Jones BBQ Winterville",
+        "source": {
+          "name": "John Tanner's Barbecue Blog",
+          "url": "https://johntannersbbqblog.wordpress.com/2024/08/14/sam-jones-bbq-restaurant-winterville-north-carolina/"
+        }
+      },
+      {
+        "url": "./photos/sam_jones_winterville/sam_jones_winterville_tray.jpg",
+        "caption": "Sam Jones BBQ tray of barbecue",
+        "alt": "Sam Jones BBQ tray of barbecue",
+        "source": {
+          "name": "John Tanner's Barbecue Blog",
+          "url": "https://johntannersbbqblog.wordpress.com/2024/08/14/sam-jones-bbq-restaurant-winterville-north-carolina/"
+        }
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "slug": "sam_jones_raleigh",
+    "name": "Sam Jones BBQ",
+    "city": "Raleigh",
+    "address": "502 W Lenoir St, Raleigh, NC 27601",
+    "lat": 35.7733,
+    "lng": -78.6467,
+    "phone": "",
+    "hours": "",
+    "style": "Eastern",
+    "status": "open",
+    "description": "The restaurant is new, but the family is barbecue royalty.",
+    "photos": [
+      {
+        "url": "./photos/sam_jones_raleigh/sam_jones_raleigh_ext.jpg",
+        "caption": "Sam Jones BBQ Raleigh from outside",
+        "alt": "Sam Jones BBQ Raleigh from outside",
+        "source": {
+          "name": "John Tanner's Barbecue Blog",
+          "url": "https://johntannersbbqblog.wordpress.com/2021/07/05/sam-jones-bbq-raleigh-north-carolina/"
+        }
+      },
+      {
+        "url": "./photos/sam_jones_raleigh/sam_jones_raleigh_plate.jpg",
+        "caption": "Sam Jones BBQ Raleigh plate",
+        "alt": "Sam Jones BBQ Raleigh plate",
+        "source": {
+          "name": "John Tanner's Barbecue Blog",
+          "url": "https://johntannersbbqblog.wordpress.com/2021/07/05/sam-jones-bbq-raleigh-north-carolina/"
+        }
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "slug": "jimmys",
+    "name": "Jimmy's Smokehouse",
+    "city": "Welcome",
+    "address": "6043 Old U.S. Hwy 52, Lexington, NC 27295",
+    "lat": 35.9077,
+    "lng": -80.2566,
+    "phone": "",
+    "hours": "",
+    "style": "Piedmont",
+    "status": "open",
+    "description": "",
+    "photos": [
+      {
+        "url": "./photos/jimmys/jimmys_sign.jpg",
+        "caption": "Jimmy's Smokehouse sign",
+        "alt": "Jimmy's Smokehouse sign",
+        "source": {
+          "name": "John Tanner's Barbecue Blog",
+          "url": "https://johntannersbbqblog.wordpress.com/2025/08/23/jimmys-smokehouse-welcome-north-carolina/"
+        }
+      },
+      {
+        "url": "./photos/jimmys/jimmys_plate.jpg",
+        "caption": "Jimmy's Smokehouse barbecue plate",
+        "alt": "Jimmy's Smokehouse barbecue plate",
+        "source": {
+          "name": "John Tanner's Barbecue Blog",
+          "url": "https://johntannersbbqblog.wordpress.com/2025/08/23/jimmys-smokehouse-welcome-north-carolina/"
+        }
+      },
+      {
+        "url": "./photos/jimmys/jimmys_skins.jpg",
+        "caption": "Crisp pork skins at Jimmy's",
+        "alt": "Crisp pork skins at Jimmy's",
+        "source": {
+          "name": "John Tanner's Barbecue Blog",
+          "url": "https://johntannersbbqblog.wordpress.com/2025/08/23/jimmys-smokehouse-welcome-north-carolina/"
+        }
+      }
+    ]
+  }
+]
