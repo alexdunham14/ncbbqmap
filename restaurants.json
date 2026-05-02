@@ -818,15 +818,6 @@
     "description": "The restaurant is new, but the family is barbecue royalty.",
     "photos": [
       {
-        "url": "./photos/sam_jones_raleigh/sam_jones_raleigh_ext.jpg",
-        "caption": "Sam Jones BBQ Raleigh from outside",
-        "alt": "Sam Jones BBQ Raleigh from outside",
-        "source": {
-          "name": "John Tanner's Barbecue Blog",
-          "url": "https://johntannersbbqblog.wordpress.com/2021/07/05/sam-jones-bbq-raleigh-north-carolina/"
-        }
-      },
-      {
         "url": "./photos/sam_jones_raleigh/sam_jones_raleigh_plate.jpg",
         "caption": "Sam Jones BBQ Raleigh plate",
         "alt": "Sam Jones BBQ Raleigh plate",
