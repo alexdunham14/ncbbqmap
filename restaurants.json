@@ -870,5 +870,57 @@
         }
       }
     ]
+  },
+  {
+    "id": 28,
+    "slug": "whispering_pines",
+    "name": "Whispering Pines B-B-Q",
+    "city": "Albemarle",
+    "address": "1421 US Highway 52 N, Albemarle, NC 28001",
+    "lat": 35.3728,
+    "lng": -80.1974,
+    "phone": "(704) 982-6184",
+    "hours": "",
+    "style": "Piedmont",
+    "status": "open",
+    "description": "Lonnie Dobie opened it in 1945; the Dobie family went on to spawn several Stanly County barbecue joints.",
+    "photos": [
+      {
+        "url": "./photos/whispering_pines/whispering_pines_sign.jpg",
+        "caption": "Whispering Pines B-B-Q sign",
+        "alt": "Whispering Pines B-B-Q sign",
+        "source": {
+          "name": "John Tanner's Barbecue Blog",
+          "url": "https://johntannersbbqblog.wordpress.com/2023/01/31/whispering-pines-b-b-q-albemarle-north-carolina/"
+        }
+      },
+      {
+        "url": "./photos/whispering_pines/whispering_pines_ext.jpg",
+        "caption": "Whispering Pines exterior",
+        "alt": "Whispering Pines exterior",
+        "source": {
+          "name": "John Tanner's Barbecue Blog",
+          "url": "https://johntannersbbqblog.wordpress.com/2023/01/31/whispering-pines-b-b-q-albemarle-north-carolina/"
+        }
+      },
+      {
+        "url": "./photos/whispering_pines/whispering_pines_tray.jpg",
+        "caption": "Whispering Pines tray with chopped pork and sides",
+        "alt": "Whispering Pines tray with chopped pork and sides",
+        "source": {
+          "name": "John Tanner's Barbecue Blog",
+          "url": "https://johntannersbbqblog.wordpress.com/2023/01/31/whispering-pines-b-b-q-albemarle-north-carolina/"
+        }
+      },
+      {
+        "url": "./photos/whispering_pines/whispering_pines_plate.jpg",
+        "caption": "Pulled pork sandwich with red slaw",
+        "alt": "Pulled pork sandwich with red slaw",
+        "source": {
+          "name": "John Tanner's Barbecue Blog",
+          "url": "https://johntannersbbqblog.wordpress.com/2026/01/25/whispering-pines-albemarle-north-carolina-the-2025-best-of-va-nc-and-sc-research-tour/"
+        }
+      }
+    ]
   }
 ]
